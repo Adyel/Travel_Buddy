@@ -1,4 +1,4 @@
-package io.github.com.travel_buddy.ui.main
+package io.github.adyel.travel_buddy.ui.main
 
 import androidx.lifecycle.ViewModel
 
