@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Travel_Buddy</string>
+    <string name="app_name">Travel Buddy</string>
+    <string name="button_lets_go">Let\'s Go!!</string>
+    <string name="login_message">Login First</string>
 </resources>
