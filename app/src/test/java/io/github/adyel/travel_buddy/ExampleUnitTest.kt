@@ -1,4 +1,4 @@
-package io.github.com.travel_buddy
+package io.github.adyel.travel_buddy
 
 import org.junit.Test
 

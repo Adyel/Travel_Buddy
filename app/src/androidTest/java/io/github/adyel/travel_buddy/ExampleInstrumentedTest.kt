@@ -1,7 +1,8 @@
-package io.github.com.travel_buddy
+package io.github.adyel.travel_buddy
 
 import androidx.test.platform.app.InstrumentationRegistry
-import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.runner.AndroidJUnit4
+
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -19,6 +20,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("io.github.com.travel_buddy", appContext.packageName)
+        assertEquals("io.github.adyel.travel_buddy", appContext.packageName)
     }
 }

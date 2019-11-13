@@ -1,8 +1,8 @@
-package io.github.com.travel_buddy
+package io.github.adyel.travel_buddy
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import io.github.com.travel_buddy.ui.main.MainFragment
+import io.github.adyel.travel_buddy.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
