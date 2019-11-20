@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui
+package io.github.adyel.travelapp.ui
 
 import androidx.annotation.DrawableRes
 import androidx.compose.Composable
@@ -41,13 +41,15 @@ import androidx.ui.material.TextButtonStyle
 import androidx.ui.material.surface.Surface
 import androidx.ui.material.themeColor
 import androidx.ui.material.themeTextStyle
-import com.example.jetnews.R
-import com.example.jetnews.ui.article.ArticleScreen
-import com.example.jetnews.ui.home.HomeScreen
-import com.example.jetnews.ui.interests.InterestsScreen
+import androidx.ui.tooling.preview.Preview
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.ui.article.ArticleScreen
+import io.github.adyel.travelapp.ui.home.HomeScreen
+import io.github.adyel.travelapp.ui.interests.InterestsScreen
 
+@Preview
 @Composable
-fun JetnewsApp() {
+fun TravelApp() {
 
     val (drawerState, onDrawerStateChange) = +state { DrawerState.Closed }
 

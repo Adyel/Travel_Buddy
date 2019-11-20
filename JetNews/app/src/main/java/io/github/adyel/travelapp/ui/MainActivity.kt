@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui
+package io.github.adyel.travelapp.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.ui.core.setContent
-import com.example.jetnews.data.getPostsWithImagesLoaded
-import com.example.jetnews.data.posts
+import io.github.adyel.travelapp.data.getPostsWithImagesLoaded
+import io.github.adyel.travelapp.data.posts
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             resources
         )
         setContent {
-            JetnewsApp()
+            TravelApp()
         }
     }
 }

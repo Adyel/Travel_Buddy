@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui.article
+package io.github.adyel.travelapp.ui.article
 
 import android.content.Context
 import android.content.Intent
@@ -41,15 +41,15 @@ import androidx.ui.material.ripple.Ripple
 import androidx.ui.material.surface.Surface
 import androidx.ui.material.themeTextStyle
 import androidx.ui.res.vectorResource
-import com.example.jetnews.R
-import com.example.jetnews.data.posts
-import com.example.jetnews.model.Post
-import com.example.jetnews.ui.Screen
-import com.example.jetnews.ui.VectorImageButton
-import com.example.jetnews.ui.home.BookmarkButton
-import com.example.jetnews.ui.home.isFavorite
-import com.example.jetnews.ui.home.toggleBookmark
-import com.example.jetnews.ui.navigateTo
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.data.posts
+import io.github.adyel.travelapp.model.Post
+import io.github.adyel.travelapp.ui.Screen
+import io.github.adyel.travelapp.ui.VectorImageButton
+import io.github.adyel.travelapp.ui.home.BookmarkButton
+import io.github.adyel.travelapp.ui.home.isFavorite
+import io.github.adyel.travelapp.ui.home.toggleBookmark
+import io.github.adyel.travelapp.ui.navigateTo
 
 @Composable
 fun ArticleScreen(postId: String) {

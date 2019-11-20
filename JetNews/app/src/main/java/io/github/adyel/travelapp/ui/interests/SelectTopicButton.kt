@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui.interests
+package io.github.adyel.travelapp.ui.interests
 
 import androidx.compose.Composable
 import androidx.compose.unaryPlus
@@ -34,9 +34,9 @@ import androidx.ui.material.surface.Surface
 import androidx.ui.material.themeColor
 import androidx.ui.res.vectorResource
 import androidx.ui.tooling.preview.Preview
-import com.example.jetnews.R
-import com.example.jetnews.ui.darkThemeColors
-import com.example.jetnews.ui.lightThemeColors
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.ui.darkThemeColors
+import io.github.adyel.travelapp.ui.lightThemeColors
 
 @Composable
 fun SelectTopicButton(

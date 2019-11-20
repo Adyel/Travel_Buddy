@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui.home
+package io.github.adyel.travelapp.ui.home
 
 import androidx.compose.Composable
 import androidx.compose.unaryPlus
@@ -33,10 +33,10 @@ import androidx.ui.material.themeTextStyle
 import androidx.ui.material.withOpacity
 import androidx.ui.res.imageResource
 import androidx.ui.text.style.TextOverflow
-import com.example.jetnews.R
-import com.example.jetnews.model.Post
-import com.example.jetnews.ui.Screen
-import com.example.jetnews.ui.navigateTo
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.model.Post
+import io.github.adyel.travelapp.ui.Screen
+import io.github.adyel.travelapp.ui.navigateTo
 
 @Composable
 fun PostCardPopular(post: Post) {

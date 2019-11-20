@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui.home
+package io.github.adyel.travelapp.ui.home
 
 import androidx.compose.Composable
 import androidx.compose.unaryPlus
@@ -32,12 +32,12 @@ import androidx.ui.material.ripple.Ripple
 import androidx.ui.material.themeTextStyle
 import androidx.ui.material.withOpacity
 import androidx.ui.res.imageResource
-import com.example.jetnews.R
-import com.example.jetnews.model.Post
-import com.example.jetnews.ui.JetnewsStatus
-import com.example.jetnews.ui.Screen
-import com.example.jetnews.ui.VectorImage
-import com.example.jetnews.ui.navigateTo
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.model.Post
+import io.github.adyel.travelapp.ui.JetnewsStatus
+import io.github.adyel.travelapp.ui.Screen
+import io.github.adyel.travelapp.ui.VectorImage
+import io.github.adyel.travelapp.ui.navigateTo
 
 @Composable
 fun AuthorAndReadTime(post: Post) {

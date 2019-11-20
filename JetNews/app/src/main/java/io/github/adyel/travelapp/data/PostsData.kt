@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.data
+package io.github.adyel.travelapp.data
 
 import android.content.res.Resources
 import androidx.ui.graphics.imageFromResource
-import com.example.jetnews.R
-import com.example.jetnews.model.Markup
-import com.example.jetnews.model.MarkupType
-import com.example.jetnews.model.Metadata
-import com.example.jetnews.model.Paragraph
-import com.example.jetnews.model.ParagraphType
-import com.example.jetnews.model.Post
-import com.example.jetnews.model.PostAuthor
-import com.example.jetnews.model.Publication
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.model.Markup
+import io.github.adyel.travelapp.model.MarkupType
+import io.github.adyel.travelapp.model.Metadata
+import io.github.adyel.travelapp.model.Paragraph
+import io.github.adyel.travelapp.model.ParagraphType
+import io.github.adyel.travelapp.model.Post
+import io.github.adyel.travelapp.model.PostAuthor
+import io.github.adyel.travelapp.model.Publication
 
 /**
  * Define hardcoded posts to avoid handling any non-ui operations.

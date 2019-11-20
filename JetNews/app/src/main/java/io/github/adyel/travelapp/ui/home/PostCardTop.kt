@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui.home
+package io.github.adyel.travelapp.ui.home
 
 import androidx.compose.Composable
 import androidx.compose.ambient
@@ -37,12 +37,12 @@ import androidx.ui.material.surface.Surface
 import androidx.ui.material.themeTextStyle
 import androidx.ui.material.withOpacity
 import androidx.ui.tooling.preview.Preview
-import com.example.jetnews.data.getPostsWithImagesLoaded
-import com.example.jetnews.data.posts
-import com.example.jetnews.model.Post
-import com.example.jetnews.ui.darkThemeColors
-import com.example.jetnews.ui.lightThemeColors
-import com.example.jetnews.ui.themeTypography
+import io.github.adyel.travelapp.data.getPostsWithImagesLoaded
+import io.github.adyel.travelapp.data.posts
+import io.github.adyel.travelapp.model.Post
+import io.github.adyel.travelapp.ui.darkThemeColors
+import io.github.adyel.travelapp.ui.lightThemeColors
+import io.github.adyel.travelapp.ui.themeTypography
 
 @Composable
 fun PostCardTop(post: Post) {

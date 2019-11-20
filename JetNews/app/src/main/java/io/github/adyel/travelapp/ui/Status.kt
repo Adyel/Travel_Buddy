@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui
+package io.github.adyel.travelapp.ui
 
 import androidx.compose.Model
 import androidx.compose.frames.ModelList

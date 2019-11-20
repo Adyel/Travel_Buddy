@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui.article
+package io.github.adyel.travelapp.ui.article
 
 import androidx.compose.Composable
 import androidx.compose.unaryPlus
@@ -47,14 +47,14 @@ import androidx.ui.text.font.FontStyle
 import androidx.ui.text.font.FontWeight
 import androidx.ui.text.style.TextDecoration
 import androidx.ui.text.style.TextIndent
-import com.example.jetnews.R
-import com.example.jetnews.model.Markup
-import com.example.jetnews.model.MarkupType
-import com.example.jetnews.model.Metadata
-import com.example.jetnews.model.Paragraph
-import com.example.jetnews.model.ParagraphType
-import com.example.jetnews.model.Post
-import com.example.jetnews.ui.VectorImage
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.model.Markup
+import io.github.adyel.travelapp.model.MarkupType
+import io.github.adyel.travelapp.model.Metadata
+import io.github.adyel.travelapp.model.Paragraph
+import io.github.adyel.travelapp.model.ParagraphType
+import io.github.adyel.travelapp.model.Post
+import io.github.adyel.travelapp.ui.VectorImage
 
 private val defaultSpacerSize = 16.dp
 private val codeBlockBackground = Color(0xfff1f1f1.toInt())

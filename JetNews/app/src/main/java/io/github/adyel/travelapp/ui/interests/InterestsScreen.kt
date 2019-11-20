@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.ui.interests
+package io.github.adyel.travelapp.ui.interests
 
 import androidx.compose.Composable
 import androidx.compose.state
@@ -40,12 +40,12 @@ import androidx.ui.material.TabRow
 import androidx.ui.material.TopAppBar
 import androidx.ui.material.themeTextStyle
 import androidx.ui.res.imageResource
-import com.example.jetnews.R
-import com.example.jetnews.data.people
-import com.example.jetnews.data.publications
-import com.example.jetnews.data.topics
-import com.example.jetnews.ui.JetnewsStatus
-import com.example.jetnews.ui.VectorImageButton
+import io.github.adyel.travelapp.R
+import io.github.adyel.travelapp.data.people
+import io.github.adyel.travelapp.data.publications
+import io.github.adyel.travelapp.data.topics
+import io.github.adyel.travelapp.ui.JetnewsStatus
+import io.github.adyel.travelapp.ui.VectorImageButton
 
 private enum class Sections(val title: String) {
     Topics("Topics"),

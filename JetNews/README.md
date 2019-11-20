@@ -22,7 +22,7 @@ screen uses a navigation drawer.
 
 ### App scaffolding
 
-Package [`com.example.jetnews.ui`][1]
+Package [`travelapp.ui`][1]
 
 [`JetnewsApp.kt`][2] arranges the different screens in the `NavDrawerLayout`. It also implements a simple
 navigation pattern.
@@ -32,7 +32,7 @@ navigation pattern.
 
 ### Main article list
 
-Package [`com.example.jetnews.ui.home`][3]
+Package [`travelapp.ui.home`][3]
 
 This screen shows how to create different custom Composable functions and combine them in a list
 that scrolls vertically and horizontally.
@@ -49,7 +49,7 @@ See how to:
 
 ### Article detail
 
-Package [`com.example.jetnews.ui.article`][4]
+Package [`travelapp.ui.article`][4]
 
 This screen dives into the Text API, showing how to use different fonts than the ones defined in
 [`Typograhy`][5]. It also adds a bottom appbar, with custom actions.
@@ -59,7 +59,7 @@ This screen dives into the Text API, showing how to use different fonts than the
 
 ### Interests screen
 
-Package [`com.example.jetnews.ui.interests`][6]
+Package [`travelapp.ui.interests`][6]
 
 This screens shows how to use Tabs and switch content depending on the selected tab. It
 also includes a custom checkbox button, [SelectTopicButton][7]
@@ -73,7 +73,7 @@ on and off, light and dark version in the Android Studio Preview.
 
 ### Data
 
-The data in the sample is static, held in the `com.example.jetnews.data` package.
+The data in the sample is static, held in the `travelapp.data` package.
 
 ## License
 

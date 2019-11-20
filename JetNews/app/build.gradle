@@ -20,7 +20,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.example.jetnews"
+        applicationId "io.github.adyel.travelapp"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1

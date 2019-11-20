@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.model
+package io.github.adyel.travelapp.model
 
 import androidx.ui.graphics.Image
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.jetnews.data
+package io.github.adyel.travelapp.data
 
 val topics = mapOf(
     "Android" to listOf("Jetpack Compose", "Kotlin", "Jetpack"),
